@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout code
@@ -28,6 +30,4 @@ jobs:
           files: |
             build/moon
             build/checksums.txt
-          permissions:
-            contents: write
 
