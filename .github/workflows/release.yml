@@ -21,7 +21,7 @@ jobs:
 
       - name: Compile moon phase program
         run: |
-          gcc -o build/moon src/moon.c
+          gcc -o build/moon src/main.c
 
       - name: Generate checksums
         run: |
