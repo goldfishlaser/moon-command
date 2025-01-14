@@ -4,8 +4,11 @@ This project is a command line tool that tells you the phase of the moon and som
 
 ## Quickstart
 
-Currently, you will need to manually add the executable to your /usr/share/bin. Afterwards, you should be able to type "moon" into the command line and get the phase of the moon and some advice.
+After downloading the file, go to the command line, navigate to the directory and enter
+
+'''sudo make install-moon'''
+
 
 ## Attribution
 
-Used neoeno toy-c-project-template.
+Used neoeno toy-c-project-template and copilot.
