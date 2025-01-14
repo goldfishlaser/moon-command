@@ -19,7 +19,7 @@ Author: Melanie Allen
 #include <time.h> 
 #include "lib.c"
 
-// Function to calculate moon phase
+// Calculate moon phase and provide advice
 
 const char* getMoonPhase(int year, int month, int day) { 
     int c, e; 
