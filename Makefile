@@ -37,3 +37,15 @@ debug: build-main
 .PHONY: debug-test
 debug-test: build-test
 	$(DBG) ./build/test
+
+.PHONY: build-moon
+build-moon: build-dir
+	$(CC) -Wall -O0 -g -o build/moon src/moon.c
+
+.PHONY: run-moon
+run-moon:build-moon
+	./build/moon
+
+.PHONY: debug-moon
+debug-moon: build-moon
+	$(DBG) ./build/moon
