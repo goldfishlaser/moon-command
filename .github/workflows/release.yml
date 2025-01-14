@@ -28,4 +28,6 @@ jobs:
           files: |
             build/moon
             build/checksums.txt
+          permissions:
+            contents: write
 
