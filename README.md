@@ -28,15 +28,15 @@ Based on your system time and date, it will calculate what phase of the moon is 
     b = b & 7; // 0 and 8 are the same so turn 8 into 0 
 
 The possible outputs are:
-It is the New Moon 🌑. Take time for reflection and planning new projects.
-It is the Waxing Crescent 🌒. Begin putting new plans into action.
-It is the First Quarter 🌓. Identify and tackle obstacles.
-It is the Waxing Gibbous 🌔. Continue what has been working most effectively.
-It is the Full Moon 🌕. An energetic period for going the extra mile.
-It is the Waning Gibbous 🌖. Drop anything that isn't effective or isn't going to close.
-It is the Last Quarter 🌗 Complete the finishing touches.
-It is the Waning Crescent 🌘. Time for rest.
-Error
+* It is the New Moon 🌑. Take time for reflection and planning new projects.
+* It is the Waxing Crescent 🌒. Begin putting new plans into action.
+* It is the First Quarter 🌓. Identify and tackle obstacles.
+* It is the Waxing Gibbous 🌔. Continue what has been working most effectively.
+* It is the Full Moon 🌕. An energetic period for going the extra mile.
+* It is the Waning Gibbous 🌖. Drop anything that isn't effective or isn't going to close.
+* It is the Last Quarter 🌗 Complete the finishing touches.
+* It is the Waning Crescent 🌘. Time for rest.
+* Error
 
 
 ## Attribution
