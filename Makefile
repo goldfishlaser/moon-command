@@ -40,7 +40,7 @@ debug-test: build-test
 
 .PHONY: build-moon
 build-moon: build-dir
-	$(CC) -Wall -O0 -g -o build/moon src/moon.c
+	$(CC) -Wall -O0 -g -o build/moon src/main.c
 
 .PHONY: run-moon
 run-moon:build-moon
@@ -49,3 +49,8 @@ run-moon:build-moon
 .PHONY: debug-moon
 debug-moon: build-moon
 	$(DBG) ./build/moon
+
+.PHONY: install-moon
+install-moon: build-moon
+	cp build/moon /usr/local/bin/moon
+
