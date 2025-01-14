@@ -6,7 +6,7 @@ This project is a command line tool that tells you the phase of the moon and som
 
 You will need to have build-essentials, gcc, and clang installed. 
 
-After downloading the file, go to the command line, navigate to the directory and enter
+After downloading the file, go to your directory in the command line and enter
 
 '''sudo make install-moon'''
 
