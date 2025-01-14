@@ -13,19 +13,14 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: Set up C compiler
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'zulu'
-          java-version: '11'
+      - name: Create build directory
+        run: mkdir -p build
 
       - name: Compile moon phase program
-        run: |
-          gcc -o build/moon src/main.c
+        run: gcc -o build/moon src/main.c
 
       - name: Generate checksums
-        run: |
-          shasum -a 256 build/* > build/checksums.txt
+        run: shasum -a 256 build/moon > build/checksums.txt
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
