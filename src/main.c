@@ -18,6 +18,7 @@ Author: Melanie Allen
 #include <stdio.h> 
 #include <time.h> 
 #include "lib.c"
+#include <math.h>
 
 // Calculate moon phase and provide advice
 
