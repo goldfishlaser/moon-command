@@ -7,7 +7,7 @@ DBG = lldb
 # https://www.gnu.org/software/make/manual/html_node/Phony-Targets.html
 .PHONY: build-main
 build-main: build-dir
-	$(CC) -Wall -O0 -g -o build/main src/main.c
+	$(CC) -Wall -O0 -g -o build/main src/main.c 
 
 .PHONY: check
 check:
@@ -40,7 +40,7 @@ debug-test: build-test
 
 .PHONY: build-moon
 build-moon: build-dir
-	$(CC) -Wall -O0 -g -o build/moon src/main.c
+	$(CC) -Wall -O0 -g -o build/moon src/main.c -lm
 
 .PHONY: run-moon
 run-moon:build-moon
