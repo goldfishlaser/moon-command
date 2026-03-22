@@ -28,8 +28,8 @@ const char* getMoonPhase(int year, int month, int day) {
     
     if (month < 3) { year--; month += 12; } ++month; 
     
-    c = 365.25 * year; 
-    e = 30.6 * month; 
+    c = Math.floor(365.25 * year);
+    e = Math.floor(30.6 * month);
     jd = c + e + day - 694039.09; // jd is total days elapsed 
     jd /= 29.5305882; // divide by the moon cycle (29.53 days) 
     b = Math.floor(jd); // int(jd) -> b, take integer part of jd 
