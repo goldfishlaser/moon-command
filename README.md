@@ -41,4 +41,4 @@ The possible outputs are:
 
 ## Attribution
 
-Used neoeno toy-c-project-template and copilot.
+Used neoeno toy-c-project-template, copilot, and claude.
